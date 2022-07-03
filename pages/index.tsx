@@ -18,6 +18,7 @@ export default function Home(){
   const connectWithMetamask = useMetamask();
   const address = useAddress();
   
+  // @ts-ignore
   const welcomeUser = (userName, toastHandler = toast) =>{
     toastHandler.success(
       `Welcome back ${userName != 'Unnamed' ? `${userName}`:''}!`,

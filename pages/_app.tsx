@@ -8,6 +8,7 @@ const connectors = {
   injected:{}, // web3 connection method used by Metamask
 }
 
+// @ts-ignore
 function MyApp({ Component, pageProps }) {
   return (
     <ThirdwebProvider
